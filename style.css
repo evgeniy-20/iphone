@@ -1,0 +1,455 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica;
+}
+.header {
+    background-image: url(img/gradient.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 521.8px; 
+}
+.top {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    font-size: 18px;
+    color: #ffffff;
+}
+.wrapper {
+    width: 1440px;
+    margin: 0px auto;
+}
+.title {
+    width: 144px;
+    height: 39px;
+    font-size: 32px;
+    color: #ffffff;
+    opacity: 0.8;
+    padding: 21px 0 112px 135px;
+}
+.menu-item {
+    display: inline-block;
+    padding: 21px 0 112px 56px;
+}
+.project-title {
+    width: 476px;
+    height: 88px;
+    font-size: 36px;
+    opacity: 0.8;
+    text-align: left;
+    color: #ffffff;
+    padding: 113px 0 23px 135px;
+}
+.project-description {
+     width: 559px;
+     height: 99px;
+     font-size: 24px;
+     opacity: 0.8;
+     text-align: left;
+     color: #ffffff;
+     padding: 0 0 24px 135px;
+}
+.emblems {
+    display: flex;
+    padding: 0 0 56.2px 135px;
+}
+.app-image {
+     width: 172px;
+     height: 60.3px;
+     object-fit: contain;
+     padding: 24px 0 56.2px 0;
+}
+.play-image {
+     width: 172px;
+     height: 60.3px;
+     object-fit: contain;
+     padding: 24px 0 0 24px;
+}
+.project {
+     display: flex;
+}
+.jon {
+    padding: 33px 0 0 333.4px;
+}
+.phone {
+    width: 282.4px;
+    height: 429.8px;
+    background-image: url(img/iphone.png); 
+    margin: 0 auto;
+}
+.phone-wrapper {
+    width: 417px;
+    height: 132.7px;
+    background-image: url(img/component.png);
+}
+.not  {
+    width: 140px;
+    height: 44px;
+    font-size: 36px;
+    opacity: 0.8;
+    text-align: left;
+    margin: 0 auto;
+}
+.pictures {
+    justify-content: space-between;
+    display: flex;
+    padding: 58.6px 137px 22.7px 134px;
+}
+.name {
+    display: flex;
+}
+.privacy {
+    width: 110px;
+    height: 37px;
+    font-size: 30px;
+    opacity: 0.8;
+    text-align: center;
+    padding: 32.3px 0 8.4px 228px;
+}
+.secure {
+    width: 105px;
+    height: 37px;
+    font-size: 30px;
+    opacity: 0.8;
+    text-align: left;
+    justify-content: center;
+    padding: 32.3px 0 8.4px 330px;
+}
+.connect {
+    width: 129px;
+    height: 37px;
+    font-size: 30px;
+    opacity: 0.8;
+    text-align: left;
+    padding: 32.3px 0 8.4px 318px;
+}
+.information {
+    display: flex;
+}
+.simply {
+    width: 395px;
+    height: 99px;
+    font-size: 24px;
+    opacity: 0.8;
+    text-align: center;
+    color: #848484;
+    padding: 8.4px 0 44.4px 86px;
+}
+.dummy {
+    width: 395px;
+    height: 99px;
+    font-size: 24px;
+    opacity: 0.8;
+    text-align: center;
+    color: #848484;
+    padding: 8.4px 0 44.4px 42px;
+}
+.printing {
+    width: 395px;
+    height: 99px;
+    font-size: 24px;
+    opacity: 0.8;
+    text-align: center;
+    color: #848484;
+    padding: 8.4px 0 44.4px 40px;
+}
+.work {
+    width: 100%;
+    height: 775.6px;
+    background-color: #f5f5f5;
+}
+.how-it-work {
+    width: 224px;
+    height: 44px;
+    font-size: 36px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 55px 0 32px 0;
+}
+.technologies {
+    display: flex;
+    padding: 133px 0 0 0;
+}
+.hat {
+    padding: 0 0 4px 135px;
+}
+.cloud {
+    padding: 0 0 4px 244px;
+}
+.title-chat {
+    display: flex;
+}
+.Chat {
+    width: 48px;
+    height: 24px;
+    font-size: 20px;
+    color: #9370DB;
+    padding: 0 0 8px 139px;
+}
+.cloud-system {
+    width: 140px;
+    height: 24px;
+    font-size: 20px;
+    text-align: left;
+    color: #9370DB;
+    padding: 0 0 8px 252px;
+}
+.lorem-text {
+    display: flex;
+}
+.lorem-1 {
+    width: 300px;
+    height: 48px;
+    font-size: 18px;
+    opacity: 0.8;
+    padding: 0 0 32px 139px;
+}
+.lorem {
+    width: 395px;
+    height: 48px;
+    font-size: 18px;
+    opacity: 0.8;
+    text-align: left;
+    padding: 0 0 0 0;
+}
+.friends-information {
+    display: flex;
+}
+.people {
+    padding: 0 0 4px 135px;
+}
+.padlock {
+    padding: 0 0 4px 244px;
+}
+.title-information {
+    display: flex;
+}
+.connect-friend {
+    width: 156px;
+    height: 24px;
+    font-size: 20px;
+    color: #9370DB;
+    text-align: left;
+    padding: 0 0 8px 139px;
+}
+.Privacy {
+    width: 74px;
+    height: 24px;
+    font-size: 20px;
+    color: #9370DB;
+    text-align: left;
+    padding: 0 0 8px 144px;
+}
+.lorem-text-1 {
+    display: flex;
+}
+.lorem-3 {
+    width: 300px;
+    height: 48px;
+    font-size: 18px;
+    opacity: 0.8;
+    padding: 0 0 32px 139px;
+}
+.wrapper-good {
+    display: flex;
+}
+.information-about-iphone {
+    padding: 0 0 0 0;
+}
+.music {
+    padding: 11.2px 0 63.6px 0;
+}
+.video {
+    width: 196px;
+    height: 24px;
+    font-size: 20px;
+    text-align: left;
+    padding: 17.2px 0 69.6px 16px;
+    color: #9370DB;
+}
+.play {
+    display: flex;
+}
+.good {
+    margin-right: 234px;
+}
+.telephone {
+    width: 100%;
+    height: 565.5px;
+    background-color: #ffffff;
+}
+.download {
+    display: flex;
+}
+.iphone3 {
+    padding: 53.4px 0 0 135px; 
+}
+.download-the-app {
+    width: 342px;
+    height: 44px;
+    font-size: 36px;
+    text-align: left;
+    padding: 183px 0 12px 121px;
+}
+.lorem-Ipsum-is-simpl {
+    width: 552.9px;
+    height: 66px;
+    font-size: 24px;
+    color: #848484;
+    padding: 12px 0 34px 0;
+}
+.emblems-1 {
+    display: flex;
+}
+.sponsors {
+    width: 100%;
+    height: 152px;
+    background-color: #d2d2d2;
+}
+.logos {
+    display: flex;
+}
+.tech-crunch {
+    padding: 39px 0 39px 135px;
+}
+.the-verge {
+    padding: 51px 0 51.6px 93px;
+}
+.tnw-the-next-web {
+  width: 173.4px;
+  height: 73.5px;
+  padding: 40px 0 38.5px 93.2px;
+}
+.the-guardian {
+  width: 303.6px;
+  height: 53.4px;
+  padding: 54px 0 44.6px 108.6px;
+}
+.footer {
+    width: 100%;
+    height: 304px;
+    background-color: #6e5694;
+}
+.App {
+    display: flex;
+}
+.company {
+    width: 98px;
+    height: 24px;
+    font-size: 20px;
+    text-align: left;
+    opacity: 0.8;
+    color: #ffffff;
+    padding: 64px 0 24px 133px;
+}
+.about-us {
+    width: 151.4px;
+    height: 24px;
+    font-size: 18px;
+    padding: 24px 0 18px 2px;
+}
+.career {
+    width: 151.4px;
+    height: 24px;
+    font-size: 18px;
+    padding: 0 0 18px 2px;
+}
+.term {
+    width: 151.4px;
+    height: 24px;
+    font-size: 18px;
+    padding: 0 0 18px 2px;
+}
+.our {
+    width: 151.4px;
+    height: 24px;
+    font-size: 18px;
+    padding: 0 0 42px 2px;
+}
+.support {
+    width: 82px;
+    height: 24px;
+    font-size: 20px;
+    opacity: 0.8;
+    color: #ffffff;
+    text-align: left;
+    padding: 64px 0 24px 105px;
+}
+.contact {
+    width: 151.4px;
+    height: 24px;
+    font-size: 18px;
+    padding: 24px 0 18px 2px;
+}
+.faq {
+    width: 151.4px;
+    height: 24px;
+    font-size: 18px;
+    padding: 0 0 18px 2px;
+}
+.blog {
+    width: 151.4px;
+    height: 24px;
+    font-size: 18px;
+    padding: 0 0 84px 2px;
+}
+.media-social {
+    width: 129px;
+    height: 24px;
+    font-size: 20px;
+    opacity: 0.8;
+    color: #ffffff;
+    text-align: left;
+    padding: 64px 0 24px 119px;
+}
+.twitter {
+    width: 151.4px;
+    height: 24px;
+    font-size: 18px;
+    padding: 24px 0 18px 2px;
+}
+.facebook {
+    width: 151.4px;
+    height: 24px;
+    font-size: 18px;
+    padding: 0 0 18px 2px;
+}
+.google {
+    width: 151.4px;
+    height: 48px;
+    font-size: 18px;
+    padding: 0 0 60px 2px;
+}
+.address {
+    width: 129px;
+    height: 24px;
+    font-size: 20px;
+    opacity: 0.8;
+    color: #ffffff;
+    text-align: left;
+    padding: 64px 0 24px 70px;
+}
+.golden {
+    width: 247.4px;
+    height: 48px;
+    font-size: 18px;
+    padding: 24px 0 144px 2px;
+}
+.chat {
+    width: 125px;
+    height: 29px;
+    font-size: 24px;
+    opacity: 0.8;
+    color: #ffffff;
+    text-align: left;
+    padding: 64px 0 19px 163.3px;
+}
+.copyright {
+    width: 247.4px;
+    height: 24px;
+    font-size: 18px;
+    padding: 19px 0 168px 2px;
+}
